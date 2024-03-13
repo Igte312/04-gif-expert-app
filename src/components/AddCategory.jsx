@@ -7,7 +7,6 @@ export const AddCategory = ({ onNewCategory }) => {
 
     const onImputChange = ({ target }) => {
         setInputValue(target.value);
-        console.log(target.value)
     }
 
     const onSubmit = (event) => {
