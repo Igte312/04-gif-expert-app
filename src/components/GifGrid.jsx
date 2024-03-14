@@ -1,6 +1,3 @@
-import { useEffect, useState } from "react";
-
-//import { getGifs } from "../helpers/GetGifs";
 import { GifItem } from "./GifItem";
 import { useFetchGifs } from "../hooks/useFetchGifs";
 
