@@ -21,8 +21,6 @@ const GifExpertApp = () => {
             <AddCategory 
                 onNewCategory={ (value) => onAddCategory( value ) }
             />
-
-          
             
             { 
             categories.map( (category) => (
