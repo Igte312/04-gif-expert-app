@@ -15,7 +15,7 @@ const GifExpertApp = () => {
 
     return (
         <>
-            <h1>GitExpertApp</h1>
+            <h1>Igna Gif</h1>
 
             <AddCategory 
                 onNewCategory={ (value) => onAddCategory( value ) }
