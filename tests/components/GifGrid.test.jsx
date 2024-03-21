@@ -37,7 +37,7 @@ describe('Pruebas en GifGrid', () => {
         ]
 
         useFetchGifs.mockReturnValue({
-            images: [],
+            images: gifs,
             isLoading: false
         });
         render( <GifGrid category={ category } /> );
